@@ -4,8 +4,6 @@ import googleIconImg from '../assets/images/google-icon.svg'
 
 import { useHistory } from 'react-router';
 
-import { auth, firebase } from '../service/firebase'
-
 import '../styles/auth.scss'
 import { Button } from '../components/Button'
 import { useAuth } from '../hooks/useAuth';
